@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <h3>Penis</h3>
+    <div>
+        <ul class="list-group">
+            <li class="list-group-item">Total: {{ usd(total) }}</li>
+            <li class="list-group-item"> Available Cash: {{ usd(cash[0]['cash']) }}</li>
+        </ul>
+    </div>
+
+{% endblock %}
